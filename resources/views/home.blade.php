@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-8">
                 <div class="card border-0 shadow-lg">
                     <div class="card-body">
@@ -62,35 +62,12 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col">
-                <div class="card border-0 shadow-lg text-center">
-                    <div class="card-body">
-                        <h4>Tipe Kamar</h4>
-                        <table class="table table-borderless table-hover">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Nama Tipe</th>
-                                    <th>Harga</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Luxury room</td>
-                                    <td>Rp. 768.000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <div class="col-9">
+            <div class="col-8">
                 <div class="card border-0 shadow-lg">
                     <div class="card-body">
                         <h4>cart</h4>
                         {{-- nama costumer --}}
-                        <div class="row"> 
+                        <div class="row">
                             <div class="col-4">
                                 <p>Nama Costumer</p>
                             </div>
@@ -120,9 +97,38 @@
                                 <select name="tipe_kamar" id="tipe_kamar" class="form-select">
                                     <option value="">King Bedroom</option>
                                     <option value="">Double Bedroom</option>
-                                </select>    
+                                </select>
                             </div>
+                            <form action="">
+                                <div class="form-group">
+                                  <input type="submit" name="" id="" class="btn btn-success" value="Pesan" aria-describedby="helpId">
+                                  <input type="submit" name="" id="" class="btn btn-secondary" value="reset" aria-describedby="helpId">
+                                </div>
+                            </form>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center">
+                    <div class="card-body">
+                        <h4>Tipe Kamar</h4>
+                        <table class="table table-borderless table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Nama Tipe</th>
+                                    <th>Harga</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Luxury room</td>
+                                    <td>Rp. 768.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
